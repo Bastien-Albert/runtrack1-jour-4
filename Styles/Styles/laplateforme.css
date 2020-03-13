@@ -1,0 +1,253 @@
+html
+{
+    font-family: 'FiraSans', "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body
+{
+    margin: 0;
+}
+a{
+    color: #0a79f2;
+    text-decoration: none;
+}
+iframe{
+    border: none;
+}
+@font-face{font-family:'FiraSans';src:url('font/FiraSans-Regular.otf');font-weight:normal}
+@font-face{font-family:'FiraSans';src:url('font/FiraSans-Medium.otf');font-weight:bold}
+@font-face{font-family:'FiraSans';src:url('font/FiraSans-Italic.otf');font-weight:normal;font-style:italic}
+@font-face{font-family:'FiraSans';src:url('font/FiraSans-UltraLight.otf');font-weight:300}
+header #header-img
+{
+    text-align: center;
+}
+nav a {
+    color: white;
+}
+header
+{
+    position:sticky;
+    background-color: #88c1d0;
+    top: -125px;
+}
+nav#header-nav {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+nav#header-nav ul {
+    margin-bottom: 0;
+}
+
+nav#header-nav li{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    transition: 0.3s;
+}
+nav#header-nav li a{
+    transition: 0.3s;
+}
+nav#header-nav li a:hover{
+    color: #052d40;
+    opacity: 0.6;
+}
+main {
+    padding-bottom: 35px;
+}
+.accueil-block
+{
+    width: 50%;
+    text-align: center;
+}
+.accueil-block img {
+    height: 500px;
+}
+.video-accueil {
+    padding-bottom: 20px ;
+}
+.text-block-blue
+{
+    background-color: #88c1d0;
+    height: auto;
+}
+.block
+{
+    height: 600px;
+    display: flex;
+}
+.info-formation{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.block-info-formation{
+    box-shadow: 0px 0px 60px 0px rgba(71,74,182,0.12);
+}
+.block-info-formation.this-block {
+    margin-bottom: 30px;
+}
+.block-text
+{
+    padding: 30px 40px;
+    text-align: center;
+}
+.block-text h3{
+    color: #275fa0;
+}
+.info-formation h1 {
+    text-align: center;
+    color: #275fa0;
+}
+#formation
+{
+    margin-left: 5.5%;
+}
+#qui-sommes-nous-page h1{
+    text-align: center;
+    padding: 20px;
+}
+#qui-sommes-nous-page{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.logo-formation-part-link img {
+    width: 100px;
+}
+.formulaire-contact{
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 60px 0px rgba(71,74,182,0.12);
+}
+#contact-body h1 {
+    text-align: center;
+}
+#contact-body .form-contact {
+    padding :10px;
+}
+.logo-formation-part{
+    display: flex;
+    justify-content: center;
+}
+.button-envoyer {
+    text-align: right;
+}
+.une-autre-question{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.block-formation-page {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 0px 60px 0px rgba(71,74,182,0.12);
+    border-radius: 40px;
+    padding: 0 10px 10px 10px;
+}
+.block-formation-page ul{
+    text-align: left;
+}
+.block-formation-page h1 {
+    color: #275fa0;
+}
+#qui-sommes-nous.is-select a, #accueil.is-select a, #contact.is-select a, #formation-header.is-select a.fromation-menu-deroulant{
+    color: #052d40;
+}
+.menu-deroulant a.is-select{
+    color: #097586;
+}
+.menu-deroulant{
+    display: none;
+    position: absolute;
+    padding: 15px;
+    background-color: white;
+    border-top: solid  #88c1d0;
+    margin-top: 10px;
+}
+.button-formation{
+    text-align: right;
+    padding: 0 20px 20px 0;
+}
+.button-formation button{
+    border-radius: 100px;
+    padding: 13px;
+}
+.logo-coding img {
+    width: 30%;
+}
+.logo-coding{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+.menu-deroulant a{
+    color: black;
+}
+nav .menu-deroulant li{
+     display: block!important;
+     padding: 10px!important;
+}
+nav .menu-deroulant li:hover{
+    background-color: #dcdbdb;
+    transition: 0.3s;
+}
+
+nav > ul li:hover .menu-deroulant{
+    display: block;
+}
+button {
+    background-color: #88c1d0;
+    border: none;
+    font-family: inherit;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+button:hover{
+    background-color:#2fb1d4;
+}
+input, textarea, select{
+    width: 98%;
+    border: 0.5px solid rgb(211,211,211);
+    font-size: .82rem;
+    font-family: Tahoma,Geneva,sans-serif;
+    padding-left: 6px;
+}
+.first-footer
+{
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    position: absolute;
+}
+footer {
+    background-color: #88c1d0;
+}
+
+footer{
+    color: white;
+}
+footer a{
+    color: white;
+}
+.reseaux-logo {
+    font-size: 30px;
+}
+footer .reseaux-logo {
+    text-align: center;
+}
+.reseaux-logo .fa-facebook{
+    color: #3b5998;
+}
+.reseaux-logo .fa-linkedin{
+    color: #0e76a8;
+}
+.reseaux-logo .fa-twitter{
+    color: #00acee;
+}
+.reseaux-logo .fa-instagram{
+    color: #833AB4;
+}

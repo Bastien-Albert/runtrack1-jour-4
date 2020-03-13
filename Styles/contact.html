@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>La Plateforme_</title>
+    <script src="https://kit.fontawesome.com/2af1b15c5a.js"></script>
+    <link rel="stylesheet" href="Styles/laplateforme.css">
+</head>
+<body id="contact-body">
+    <header>
+        <div id="header-img">
+            <img width="143px" src="Styles/Image/LOGO-FOND-BLANC.svg">
+        </div>
+        <nav id="header-nav">
+            <ul>
+                <li id="accueil">
+                    <a href="accueil.html">Accueil</a>
+                </li>
+                <li id="qui-sommes-nous">
+                    <a href="qui-sommes-nous.html">Qui sommes-nous ?</a>
+                </li>
+                <li id="contact" class="is-select">
+                    <a href="contact.html">contact</a>
+                </li>
+                <li id="formation-header">
+                    <a class="fromation-menu-deroulant"  href="#">Formation</a>
+                    <ul class="menu-deroulant">
+                        <li><a href="coding.html">Coding School</a></li>
+                        <li><a href="digital-lab.html">Centrale Digital Lab</a></li>
+                        <li><a href="executive-education.html">Executive Education</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <h1>Vous souhaitez des informations ou candidater à La Plateforme_ ?</h1>
+        <div class="formulaire-contact">
+            <div class="form-contact">
+                <h1>
+                    Remplissez ce formulaire et nous reviendrons vers vous
+                </h1>
+                <form action="" method="get">
+                    <select name="formation_interaisse">
+                        <option value="">La formation qui vous intéresse</option>
+                        <option value="coding_school<">Coding School</option>
+                        <option value="centrale_Digital_Lab">Centrale Digital Lab</option>
+                        <option value="executive_education">Executive Education</option>
+                    </select><br>
+                    <input type="text" placeholder="Prénom" required="required" id="Prenom" name="fname"><br/>
+                    <input type="text" placeholder="Nom" required="required" id="Nom" name="lname"><br/>
+                    <input type="email" placeholder="Email" required="required" id="Email" name="Email"><br/>
+                    <input type="text" placeholder="Telephone" id="Telephone" name="Email"><br/>
+                    <input type="text" placeholder="Adresse" id="adresse" name="adresse"><br/>
+                    <input type="text" placeholder="Code Postal" id="code_Postal" name="code_Postal"><br/>
+                    <input type="text" placeholder="ville" id="ville" name="ville"><br/>
+                    <input type="text" placeholder="Comment nous avez-vous connu ?" id="comment_nous_avez_vous_connu" name="comment_nous_avez_vous_connu"><br/>
+                    <input type="text" placeholder="Quel est votre niveau d'étude ?"  id="quel_est_votre_niveau_étude" name="quel_est_votre_niveau_étude"><br/>
+                    <textarea id="message" placeholder="Message" required="required" name="message"></textarea><br/>
+                    <div class="button-envoyer">
+                        <button>ENVOYER</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="une-autre-question">
+            <h1>Une autre question ?</h1>
+            <p>Nous sommes aussi joignables :</p>
+            <ul>
+                <li>Par email <a href="mailto:contact@laplateforme.io" target="_blank" rel="noopener noreferrer">contact@laplateforme.io</a></li>
+                <li>Par téléphone au 04.84.89.43.69 du lundi au vendredi de 9h à 17h</li>
+                <li>Sur les réseaux sociaux</li>
+            </ul>
+            <div class="reseaux-logo">
+                <a href="https://www.facebook.com/LaPlateformeIO" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/laplateformeio" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/LaPlateformeIO" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/LaPlateformeIO/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <img width="143px" src="Styles/Image/LOGO-FOND-BLANC.svg">
+        <div class="first-footer">
+            <div id="la-plateforme">
+                <h3>La Plateforme_</h3>
+                <p><a href="accueil.html">Accueil</a></p>
+                <p><a href="qui-sommes-nous.html">Qui somme-nous ?</a></p>
+                <p><a href="contact.html">Contact</a></p>
+            </div>
+            <div id="formation">
+                <h3>Les Formations</h3>
+                <p><a href="coding.html">Coding School</a></p>
+                <p><a href="digital-lab.html">Centrale Digital Lab</a></p>
+                <p><a href="executive-education.html">Executive Program</a></p>
+            </div>
+        </div>
+        <div class="reseaux-logo">
+            <a href="https://www.facebook.com/LaPlateformeIO" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/laplateformeio" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://twitter.com/LaPlateformeIO" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/LaPlateformeIO/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
